@@ -4,6 +4,7 @@ An AI-powered real-time exam monitoring system that uses **Computer Vision, YOLO
 
 The system combines multiple visual signals with **temporal behavior analysis** to identify potentially suspicious activities and generate real-time alerts.
 
+---
 # Demo Video
 
 https://github.com/user-attachments/assets/dae5d122-d7dc-46ad-ba86-8dd5088d6a12
@@ -142,13 +143,13 @@ Real-time-exam-cheating-detection-system/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Shorifuzzaman-Git/ai-powered-exam-cheating-detection-system.git
+https://github.com/Shorifuzzaman-Git/AI-Powered-Exam-Cheating-Detection-System-.git
 ```
 
 ### 2. Enter the project directory
 
 ```bash
-cd Real-time-exam-cheating-detection-system
+cd AI-Powered-Exam-Cheating-Detection-System-
 ```
 
 ### 3. Create a virtual environment
@@ -169,18 +170,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+### 6. Install MediaPipe Face Landmarker
 
-## 📦 Required Models
-
-### MediaPipe Face Landmarker
-
-Place:
-
-```text
-models/face_landmarker.task
+```bash
+wget -O models/face_landmarker.task \
+https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task
 ```
-
 ---
 
 ## ▶️ Run the Project
@@ -267,7 +262,7 @@ timestamp,person_id,event,duration_seconds
 
 ## ⚠️ Disclaimer
 
-This project is intended as an **AI-powered exam cheating detection system**. Detected visual behaviors represent potentially suspicious activity and should not be treated as definitive proof of academic misconduct. Human review should be used for final decisions.
+This project is intended as an **AI-powered exam cheating detection system**. Detected visual behaviors represent potentially suspicious activity and should not be treated as definitive proof of academic misconduct. Use human review for final decisions.
 
 ---
 
