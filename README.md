@@ -4,6 +4,10 @@ An AI-powered real-time exam monitoring system that uses **Computer Vision, YOLO
 
 The system combines multiple visual signals with **temporal behavior analysis** to identify potentially suspicious activities and generate real-time alerts.
 
+# Demo Video
+
+https://github.com/user-attachments/assets/dae5d122-d7dc-46ad-ba86-8dd5088d6a12
+
 ---
 
 ## 🚀 Features
