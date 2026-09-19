@@ -5,7 +5,7 @@ An AI-powered real-time exam monitoring system that uses **Computer Vision, YOLO
 The system combines multiple visual signals with **temporal behavior analysis** to identify potentially suspicious activities and generate real-time alerts.
 
 ---
-# Demo Video
+## Demo Video
 
 https://github.com/user-attachments/assets/dae5d122-d7dc-46ad-ba86-8dd5088d6a12
 
@@ -170,7 +170,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 6. Install MediaPipe Face Landmarker
+### 6. Test installation 
+
+After installation is complete, run this file to check the installation: 
+
+```bash
+python test.py
+```
+
+### 7. Install MediaPipe Face Landmarker
 
 ```bash
 wget -O models/face_landmarker.task \
