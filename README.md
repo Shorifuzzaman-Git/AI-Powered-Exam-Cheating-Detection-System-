@@ -1,20 +1,22 @@
 # Exam-Cheating-Detection-Application-Using-Python
-AI-powered exam cheating detection system using Python, MediaPipe, YOLOv8, and OpenCV. Detects cheating behavior in real-time including looking away, phone usage, and multiple faces.
+AI-powered exam cheating detection system using Python, MediaPipe, YOLO26n, and OpenCV. Detects cheating behavior in real-time including looking away, phone usage, and multiple faces.
 
 # 🧠 Features
-✔ Face authentication 
+✔ YOLO Person Tracking 
 
-✔ Detect multiple persons
+✔ YOLO Phone Detection
 
-✔ No face detected (person left, or blocking camera)
+✔ Multi-Face MediaPipe
 
-✔ Phone/object detection
+✔ Gaze Detection
 
-✔ Capture cheating screenshots
+✔ Head Pose
 
-✔ Detect phone usage
+✔ Temporal Behaviour Detection
 
-✔ Detect looking away (gaze tracking)
+✔ Immediate Phone Alert
+
+✔ CSV Event Logging
 
 ## 📦 Requirements
 Install dependencies using:
